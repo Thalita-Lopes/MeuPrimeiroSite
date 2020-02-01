@@ -1,0 +1,259 @@
+/* Meu primeiro arquivo CSS */
+
+/* TAGS */
+p{
+	color:white;
+	font-size: 16px;
+	font-family: asdf, arial, "Times new roman";
+	text-shadow:1px 1px 1px #111111;
+	padding: 0px;
+}
+
+body{
+	background-color:#000000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, arial;
+}
+
+header{
+	background-color:#000080;
+	height: 80px;
+	padding:20px;
+}
+
+
+footer{
+	clear: both;
+	background-color:#000080;
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+	font-size:12px;
+	text-shadow:1px 1px 1px #F5FFFA;
+}
+
+h1{
+	color:#000080;
+	text-shadow:1px 1px 1px #E0FFFF;
+	text-align: center;
+	margin:10px 0 30px 0;
+}
+h3{
+	color:white;
+	text-shadow:1px 1px 1px #2E2EFE;
+	text-align: left;
+	margin:0 0 30px 0;
+	padding: 10px 0 0 80px;
+}
+
+h4{
+	color: white;
+}
+
+/* IDS */
+#principal{
+	background-image: url('imagemdeFundoAzul.png');
+	clear:both;
+	background-size:100%;
+	min-height: 500px;
+	padding:80px 0 0 0;
+}
+
+#logo{
+	float:left;
+}
+
+#menu{
+	margin-top: 20px;
+	float:right;
+}
+
+#menu a{
+	padding:52px 20px;
+	text-decoration: none;
+	color:#E0FFFF;
+	text-shadow: 1px 1px #111111;
+}
+
+#menu a:hover{
+	background-color:#B0C4DE;
+	color:#111;
+}
+#abc{
+	text-align: center;
+	text-decoration-color: white;
+}
+#abc a:hover{
+	background-color:#B0C4DE;
+	color:#111;
+}
+#membro1{
+	float:left;
+}
+
+#membro2{
+	float: left;
+	margin-left: 5px;
+}
+
+#membro3{
+	float: right;
+	margin-right: 20px;
+}
+#membro4{
+	float: right;
+	padding-right: 5px;
+}
+#membro5{
+	float: left;
+	padding-left: 7px;
+}
+#Empresas{
+	margin-top: 30px;
+		
+}
+#DivEsquerda{
+float: left;
+width:500px;
+}
+#DivDireita{
+	position: relative;
+	float: right;
+	width: 500px;
+
+}
+
+#dimensionar{
+width:1000px;
+margin-bottom: 50px;
+padding: 0 0 100px 0;
+}
+.servicos{
+	float: right;
+	margin-left: 200px;
+	margin-top: 70px;
+	margin-bottom: 80px;
+}
+
+
+/* class */
+.container{
+	width: 1050px;
+	margin: 0 auto;
+}
+
+.efeito{
+	background-color:rgba(0, 0, 0, 0.5);
+	padding: 100px 0 30px 0;
+}
+
+.efeito2{
+	background-color:rgba(0, 0, 0, 0.5);
+	padding: 100px 0 300px 0;
+}
+
+.servicos{
+	padding: 0 0 30px 0;
+}
+
+.parceiro{
+	justify-content: center;
+	padding: 10px 0px 10px 200px;
+}
+
+.Login{
+	margin-right: 380px;
+	margin-left: 350px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color:#000080;
+	padding: 10px 20px 10px 80px; 
+}
+
+.galeria{
+margin: 40px 0 0 280px;
+width: 580px;
+height: 580px;
+position: relative;
+overflow: hidden;
+}
+
+.foto{
+position: absolute;
+opacity: 0;
+animation-name: animacao;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+}
+
+@keyframes animacao{
+	25%{
+		opacity: 1;
+		transform: scale(1.1,1.1);
+	}
+
+	50%{
+		opacity: 0;
+	}
+
+}
+
+.foto:nth-child(1){
+
+}
+
+.foto:nth-child(2){
+	animation-delay: 5s;
+}
+.foto:nth-child(3){
+	animation-delay: 10s;
+}
+.foto:nth-child(4){
+	animation-delay: 15s;
+}
+
+.galeria2{
+margin: 50px 50px 10px 150px;
+width: 1200px;
+height: 650px;
+position: relative;
+overflow: hidden;
+}
+
+.foto2{
+position: absolute;
+opacity: 0;
+animation-name: anima;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+}
+
+@keyframes anima{
+	25%{
+		opacity: 1;
+		transform: scale(1.1,1.1);
+	}
+
+	50%{
+		opacity: 0;
+	}
+
+}
+
+.foto2:nth-child(1){
+
+}
+
+.foto2:nth-child(2){
+	animation-delay: 5s;
+}
+.foto2:nth-child(3){
+	animation-delay: 10s;
+}
+.foto2:nth-child(4){
+	animation-delay: 15s;
+}
